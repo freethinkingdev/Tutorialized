@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<questions>
+    <topic>Adobe Animate</topic>
+    <question number="1">
+        <type>Multiple</type>
+        <title>To which program, Adobe Edge Animate is similar to?</title>
+        <answers set="1">
+            <answer value="true" num="1">Adobe Flash Professional</answer>
+            <answer value="false" num="2">Flash builder</answer>
+            <answer value="true" num="3">Adobe After Effects</answer>
+            <answer value="false" num="4">Microsoft .NET</answer>
+        </answers>
+    </question>
+
+    <question number="2">
+        <type>OneChoice</type>
+        <title>Which software was not made by Adobe?</title>
+        <answers set="2">
+            <answer value="true" num="1">IOS 6</answer>
+            <answer value="false" num="2">Edge Animate</answer>
+            <answer value="false" num="3">Photoshop</answer>
+            <answer value="true" num="4">Windows 7</answer>
+        </answers>
+    </question>
+
+    <question number="3">
+        <type>TrueFalse</type>
+        <title>Main Adobe HQ is located in Glasgow. True or false?</title>
+        <answers set="3">
+            <answer value="false" num="1">True</answer>
+            <answer value="true" num="2">False</answer>
+        </answers>
+    </question>
+
+
+</questions>

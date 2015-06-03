@@ -1,0 +1,19 @@
+<?php
+session_start();
+require_once("RequireOnceFile.php");
+Page::addHtmlMetadataOfHtml("Css/css.css");
+Page::addHeaderToThePage('CHANGE THIS HEADING IN PHP FILE');
+include_once "View/Shared/commonMenuV.php";
+
+
+Page::addMainBodyToThePage("<div class='main_content'>");
+Page::addMainBodyToThePage("<div class='text_content'>");
+if (isUserLoggedIn()) {
+
+} else {
+
+}
+Page::addMainBodyToThePage("</div>");
+Page::addMainBodyToThePage("</div>");
+Page::addClearBothDiv();
+Page::addFooterToThePage("");
